@@ -2,7 +2,6 @@
 Python은 Print 출력에 있어 다양한 방법이 있어 따로 정리하였습니다.
 
 ## Old String Formatting (% Operator)
----
 C언어의 printf 스타일의 포맷팅을 주로 사용했으면 익숙한 방식이다.    
 하지만 데이터 타입을 정확히 알아야 하기 때문에 디버깅과정에서 번잡한 단점이 있다.  
 또한 문자열이 길어질수록 코드의 가독성이 떨어짐.  
@@ -34,7 +33,6 @@ print('%s %d %f 0x%.4X' % (text, integer, pi, hexa))
 |'a'|문자열 타입 (ascii()함수를 통해 해당 타입으로 변환 가능)|
 
 ## String.format
----
 Python에서 권장하는 문법으로 Python 3.6 이상에서는 f-String이라는 후속 포멧팅이 존재한다.  
 ```python
 name = 'john'
@@ -53,7 +51,6 @@ print(('hello {0}, {1}').format('bob',name))
 이와 같이 string.format 에서는 다양한 표현 방식으로 지원이 된다.
 
 ## f-String
----
 Python 3.6이상에서 지원하는 문법이다.  
 String.format 방식의 문법은 코드가 장황해지는 경우가 많은데, 이를 해결하기 위해 고안됌.  
 또한 더욱 강력해져 간단한 산술 연산까지 지원한다.
