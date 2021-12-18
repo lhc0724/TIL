@@ -18,7 +18,7 @@ print('%s %d %f 0x%.4X' % (text, integer, pi, hexa))
 
 출력 결과  
   
-![result](./Picture/print_result_1.png)  
+![result](./Picture/print_result_1.PNG)  
   
 주로 사용되는 타입 포맷팅:
 |Conversion|Meaning|
