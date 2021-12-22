@@ -46,7 +46,7 @@ print(('my name is {name}, I\'m {age} years old.').format(name = 'bob', age = 20
 # 'my name is bob I'm 20 years old.'
 
 print(('hello {0}, {1}').format('bob',name))
-# 'hello bob, john
+# 'hello bob, john'
 ```
 이와 같이 string.format 에서는 다양한 표현 방식으로 지원이 된다.
 
