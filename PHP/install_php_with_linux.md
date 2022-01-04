@@ -95,7 +95,7 @@ Active(running) 문구가 뜨면 FPM이 동작.
     ![php_version](./Picture/php_version.PNG)  
 
 ## JIT 컴파일러 활성화
-앞에서 소개한 JIT 컴파일러는 PHP8에 처음으로 적용되어 기본적으로 비활성화 되어있습니다.
+앞에서 소개한 JIT 컴파일러는 PHP8에 처음으로 적용되어 기본적으로 비활성화 되어있습니다.  
 사용하기 위해서는 php.ini의 설정을 바꿔주어야 합니다.
 
 php.ini의 수정을 위해 다음 명령어를 사용하여 vi 에디터를 통해 열어줍니다.
