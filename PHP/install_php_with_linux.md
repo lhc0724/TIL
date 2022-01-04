@@ -83,7 +83,7 @@ Apache를 다시 시작한 후 FPM이 동작 하는 지 확인합니다.
 sudo systemctl restart apache2
 sudo systemctl status php8.1-fpm
 ```
-![fpm_status](./Picture/php_fpm_status.PNG)
+![fpm_status](./Picture/php_fpm_status.PNG)  
 Active(running) 문구가 뜨면 FPM이 동작.  
 
 * ETC   
