@@ -1,4 +1,4 @@
-# 리눅스 환경에서 PHP 시작하기 
+# 리눅스 환경에서 PHP 환경설정
 
 > 서술할 환경은 다음과 같습니다.  
 > Linux - Debian  
@@ -94,3 +94,16 @@ Active(running) 문구가 뜨면 FPM이 동작.
 
     ![php_version](./Picture/php_version.PNG)  
 
+## JIT 컴파일러 활성화
+앞에서 소개한 JIT 컴파일러는 PHP8에 처음으로 적용되어 기본적으로 비활성화 되어있습니다.
+사용하기 위해서는 php.ini의 설정을 바꿔주어야 합니다.
+
+php.ini의 수정을 위해 다음 명령어를 사용하여 vi 에디터를 통해 열어줍니다.
+```shell
+sudo vi /etc/php/8.1/fpm/php.ini
+```
+![php_opcache](./Picture/php_ini_opcache.PNG)  
+opcahce.enable 값이 주석처리 되어 있는것을 확인 할 수 있다.  
+
+주석을 제거하여 다음과 같이 만들고 아래와 같은 옵션을 추가합니다.
+![php_jit](./Picture/php_jit_active.PNG)
