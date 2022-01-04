@@ -6,4 +6,6 @@
 - [Python Print Formatting](./Python/Python_print.md)
 - [Python Module and Packages](./Python/module_and_package.md)
 
+## PHP
+- [Setup php with linux](./PHP/install_php_with_linux.md)
 ## ETC
