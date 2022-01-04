@@ -105,5 +105,5 @@ sudo vi /etc/php/8.1/fpm/php.ini
 ![php_opcache](./Picture/php_ini_opcache.PNG)  
 opcahce.enable 값이 주석처리 되어 있는것을 확인 할 수 있다.  
 
-주석을 제거하여 다음과 같이 만들고 아래와 같은 옵션을 추가합니다.
+주석을 제거하여 다음과 같이 만들고 아래와 같은 옵션을 추가합니다.  
 ![php_jit](./Picture/php_jit_active.PNG)
