@@ -7,5 +7,6 @@
 - [Python Module and Packages](./Python/module_and_package.md)
 
 ## PHP
-- [Setup php with linux](./PHP/install_php_with_linux.md)
+- [Linux에서 PHP 환경 구축](./PHP/install_php_with_linux.md)
+- [Laravel Framework 시작](./PHP/laravel_setup.md)
 ## ETC
