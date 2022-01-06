@@ -1,8 +1,7 @@
 # PHP 라라벨 프레임워크 시작하기
 
-## 라라벨 설치
-
 해당 내용의 출처는 [라라벨 코리아][출처1]를 참고 하였습니다.
+## 라라벨 설치
 
 라라벨은 의존성 관리를 위해 컴포저를 사용한다.  
 라라벨을 시작하기전에 PHP와 composer가 설치 되어 있다고 가정하고 서술.
@@ -37,6 +36,15 @@ laravel new blog
 ![capture](./Picture/laravel_new.PNG)
 
 
+## 라라벨 설정
+### Public Directory
+Laravel을 설치 한 후 웹서버의 document / web 루트를 **public 디렉토리**로 설정해야함.  
+public 디렉토리의 index.php는 App의 모든 HTTP requests에 대해 프론트 컨트롤러로 작동.
 
+### 디렉토리 권한
+라라벨을 설치한 뒤에, 몇몇 권한을 설정할 필요가 있습니다.  
+storage 와 bootstrap/cache 디렉토리 안에 있는 모든 디렉토리는 웹 서버나 라라벨에 의해
+쓰기가 가능해야 하며, 그렇지 않을 경우 라라벨이 실행할 수 없습니다.  
+홈스테드 가상머신을 사용중이라면 권한이 이미 설정되어 있을 것입니다.
 
 [출처1]:https://laravel.kr/docs/8.x/installation
