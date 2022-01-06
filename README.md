@@ -8,5 +8,5 @@
 
 ## PHP
 - [Linux에서 PHP 환경 구축](./PHP/install_php_with_linux.md)
-- [Laravel Framework 시작](./PHP/laravel_setup.md)
+- [Laravel Framework 시작](./PHP/laravel_start.md)
 ## ETC
