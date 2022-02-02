@@ -12,6 +12,6 @@
 
 ## React
 - [React+typescript 시작하기](./React/react_with_typescript.md)
-- [nextJS + typescript](./React/react_with_typescript.md)
+- [nextJS + typescript](./React/nextJS.md)
 
 ## ETC
