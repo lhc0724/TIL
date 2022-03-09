@@ -39,4 +39,3 @@ const UserInfo = (props : User) => {
 
 export default UserInfo;
 ```
-컴포넌트에 있어도 되고 없어도 되는 props라면 interface를 통해 ? 문자로 선언한다.

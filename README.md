@@ -5,14 +5,20 @@
 ## Python
 - [Python Print Formatting](./Python/Python_print.md)
 - [Python Module and Packages](./Python/module_and_package.md)
+- [Python Using dotenv](./Python/py_dotenv.md)
 
 ## PHP
 - [Linux에서 PHP 환경 구축](./PHP/install_php_with_linux.md)
 - [Laravel Framework 시작](./PHP/laravel_start.md)
 
 ## React
-- [React+typescript 시작하기](./React/react_with_typescript.md)
-- [nextJS + typescript](./React/nextJS.md)
-- [nextJS 파일구조](./React/nextJS_directory_structure.md)
+* ### React CRA
+    - [React+typescript 시작하기](./React/ReactCRA/react_with_typescript.md)
+    - [React Redux Toolkit](./React/React_CRA/react_reduxToolkit.md)
+
+* ### React + NextJS 
+    - [nextJS + typescript](./React/NextJS/nextJS.md)
+    - [nextJS 파일구조](./React/NextJS/nextJS_directory_structure.md)
 
 ## ETC
+- [GIT 리파지토리 생성](./Git/create_repository.md)
